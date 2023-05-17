@@ -1,0 +1,14 @@
+function stringHandsOn(){
+    var givenString="     Hey you are doing good, Keep it up   ";
+    console.log("The Original string is:"+givenString);
+    var len=givenString.length;
+    console.log("The length of given string is : "+len);
+    var trimmedgivenString = givenString.trim();
+    var lengthAfterTrim = trimmedgivenString.length;
+    console.log("After Trim:"+trimmedgivenString);
+    console.log("The length after trim is : "+lengthAfterTrim);
+    console.log("Extra space count that is removed: ", len-lengthAfterTrim);
+    console.log("First Char of trimmed String:" +trimmedgivenString.charAt(0));
+    console.log("Last Char of trimmed String:" +trimmedgivenString.charAt(lengthAfterTrim-1));
+}
+stringHandsOn();
