@@ -68,6 +68,7 @@ console.log(arrayOfRollNumbers);
 console.log(arrSpliced);
 
 // splice for insertion
+console.log(`Splice for insertion`);
 var arrayOfRollNumbers = [67, 56, 78, 90, 60, 90, 40, 99, 80];
 console.log(arrayOfRollNumbers);
 arrayOfRollNumbers.splice(2, 0, 666, 444)
@@ -116,3 +117,29 @@ console.log(`------ Resize an array -------`);
 var arrayNames = ["Anil", "Siya", "Ram" ,"Sunil", "Jenny"];
 arrayNames.length = 3;
 console.log(arrayNames);
+
+//Codemind Technology 8:26
+let setRollNums = new Set();
+setRollNums.add(10);
+setRollNums.add(20);
+setRollNums.add(21);
+setRollNums.add(45);
+setRollNums.add(20);
+console.log(setRollNums);
+
+console.log(setRollNums.size);
+
+setRollNums.delete(21);
+console.log(setRollNums);
+
+const isAvailable = setRollNums.has(20);
+console.log(isAvailable);
+
+setRollNums.add(55);
+setRollNums.add(80);
+
+console.log(typeof setRollNums);
+
+for (const element of setRollNums) {
+    console.log(element);
+}
