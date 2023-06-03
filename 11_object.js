@@ -1,4 +1,5 @@
 
+
 let person = {
   height: "6feet",
   name: "Bill gates",
@@ -76,3 +77,4 @@ console.log(student);
 const isCityAvailable = "city" in student;
 console.log(`Is City available in student object: ${isCityAvailable}`);
 console.log(`Is marks available in student object: ${"marks" in student}`);
+
