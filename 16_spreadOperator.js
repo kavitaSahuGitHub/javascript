@@ -66,7 +66,7 @@ const setOfNum = [...new Set(arrayNum)];
 console.log(setOfNum);
 //======================Duplicate value==================================
 //const arrayNum=[11,22,11,23,6,4,55];
-for(let i=0; i<arrayNum.length; i++)
+/*for(let i=0; i<arrayNum.length; i++)
 {
 const element=arrayNum[i];
 for(let j=0; j<arrayNum.lenght; j++){
@@ -74,7 +74,20 @@ if(i=j){
 continue;
 }
 if(element==arrayNum[j]){
+    delete.arrayNum[j];
+}
+}*/
 
-}
-}
-}
+
+console.log(`---------- Remove duplicate elements from array without set ---------------`);
+const arrayNums = [10, 5, 70, 90, 100, 30 ];
+
+arrayNums.forEach( ( currentValue, index, array ) => {
+    console.log(`${currentValue}, ${index}`);
+    console.log(array);
+}  );
+
+console.log(" ======== Executing forEach() with only required arguments==========");
+arrayNums.forEach( (currentValue) => {
+    console.log(currentValue);
+} );
