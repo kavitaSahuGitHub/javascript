@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>Excercise Time</title>
+</head>
+
+<body>
+    <main>
+        <div id="overview">
+            <h1>Html and javaScript are crucial technologies</h1>
+            <p>The web would not work without them...</p>
+
+        </div>
+        <div id="advantages">
+            <ul>
+                <li>Flexible</li>
+                <li>Available</li>
+                <li>Magical</li>
+            </ul>
+        </div>
+    </main>
+    <script>
+        const mainHeading = document.querySelector("h1");
+        console.log(`================main heading=========`);
+        console.log(mainHeading.innerHTML);
+
+        console.log(`===========second advantage==========`);
+        const liElements = document.querySelectorAll('li');
+        const secondAdvantage=liElements[1];        
+        console.log(secondAdvantage.innerHTML);
+
+        console.log(`================adv div===========`);
+        const advDiv=document.querySelector("#advantages");
+        console.log(advDiv.innerHTML);
+    </script>
+
+    /*
+
+    12 june assignment--
+    Assignment - JavaScript logical program
+    const array = [10, 5, 'a', 'b', 'h', 11];
+    Sort this array and print output with NUMBER and ALPHABET  seperately 
+    
+    Ex:Numbers: 5,10,11
+    Alphabets: a,b,h
+    */
+</body>
+
+</html>

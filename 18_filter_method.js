@@ -47,6 +47,7 @@ const arrayTcsEmployees = array_employees.filter( (employee) => {
 const arrayTcsEmployeeNames = arrayTcsEmployees.map( (employee) => {
     return employee.emp_name;
 });
+console.log("kavita sahu-------------------------------------------------")
 console.log(arrayTcsEmployeeNames);
 // console.log(arrayTcsEmployees);
 // for (const emp of arrayTcsEmployees) {
